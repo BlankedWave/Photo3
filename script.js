@@ -5,8 +5,8 @@ let distance = 0;
 let speed = 200;
 const directions = ['top', 'right', 'bottom', 'left'];
 let isPaused = false;
-const images = ["https://instagram.fkul8-3.fna.fbcdn.net/v/t51.2885-15/491492973_18499022407051972_5376337959852819050_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjE0NDB4MTgwMC5zZHIuZjc1NzYxLmRlZmF1bHRfaW1hZ2UifQ&_nc_ht=instagram.fkul8-3.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2QEg8BwQoUoT-Ly7bRBjhmpg3Y71-dxLCiRfp6_2Lr8vaf15N-ZNlRleJVHNqCRQGAEw-Q7EtgyGgw9Oenqe8qoB&_nc_ohc=C-3iCmMZlNUQ7kNvwFshlES&_nc_gid=J1IlSVEIF5oqegDO6NEs8w&edm=AP4sbd4BAAAA&ccb=7-5&ig_cache_key=MzYxMDYzNzUwNzY5Mzk1OTc5Ng%3D%3D.3-ccb7-5&oh=00_AfR1o_ihGLLjnfAU_5xybNM-EZ-xRE0yhLVB1CB0TDLdJg&oe=68814B5F&_nc_sid=7a9f4b",
-                "https://instagram.fkul8-1.fna.fbcdn.net/v/t51.29350-15/469907700_1284949536037055_2256335340575468641_n.jpg?stp=dst-jpg_e35_p750x750_sh0.08_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjE0NDB4MTgxOC5zZHIuZjI5MzUwLmRlZmF1bHRfaW1hZ2UifQ&_nc_ht=instagram.fkul8-1.fna.fbcdn.net&_nc_cat=111&_nc_oc=Q6cZ2QEg8BwQoUoT-Ly7bRBjhmpg3Y71-dxLCiRfp6_2Lr8vaf15N-ZNlRleJVHNqCRQGAEw-Q7EtgyGgw9Oenqe8qoB&_nc_ohc=b-tABsB5KisQ7kNvwG1MbQG&_nc_gid=J1IlSVEIF5oqegDO6NEs8w&edm=AP4sbd4BAAAA&ccb=7-5&ig_cache_key=MzUxOTE3MzMxMTE4NjM0OTM1OQ%3D%3D.3-ccb7-5&oh=00_AfRO3WVkJEUXVz-EX4JcVwi7yLPN_r2cur1cgFGDBYRLKw&oe=68816C35&_nc_sid=7a9f4b",
+const images = ["https://picsum.photos/id/106/900/500",
+                "https://picsum.photos/id/115/900/500",
                 "https://picsum.photos/id/116/900/500",
                 "https://picsum.photos/id/124/900/500",
                 "https://picsum.photos/id/126/900/500",
